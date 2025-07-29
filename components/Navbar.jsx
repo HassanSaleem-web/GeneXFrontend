@@ -7,17 +7,13 @@ import { navVariants } from '../utils/motion';
 const Navbar = () => {
   // Redirect to backend Google login route
   const handleGoogleSignUp = () => {
-    console.log("🧠 Sign Up button clicked");
+    console.log('🧠 Sign Up button clicked');
     window.location.href = 'https://backendanorok.onrender.com/api/auth/google';
   };
   // const handleGoogleSignUp = () => {
   //   // <--- Debugging line
   //   window.location.href = 'http://localhost:5000/api/auth/google';
   // };
-
-
-
-
   return (
     <motion.nav
       variants={navVariants}
